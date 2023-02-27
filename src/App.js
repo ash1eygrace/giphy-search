@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import SearchForm from "./Components/SearchForm";
 import GifList from "./Components/GifList";
+import Spinner from "./Components/Spinner";
+
 
 function App() {
   const [gifs, setGifs] = useState([]);
@@ -39,7 +41,7 @@ function App() {
       <div className="main-content">
         {
           (loading)
-          ? <p>Loading...</p>
+          ? <Spinner />
           : <GifList data={gifs} />
         }
       </div>
