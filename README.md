@@ -25,6 +25,6 @@ The purpose of this app is to provide an easy and user-friendly way to search fo
 
 ## Installation: 
 
-1. Clone the repository to your local machine. git clone git@github.com:ash1eygrace/scoreboard.git
-2. Install the dependencies. npm install
-3. Start the app. npm start
+1. Clone the repository to your local machine. `git@github.com:ash1eygrace/giphy-search.git`
+2. Install the dependencies. `npm install`
+3. Start the app. `npm start`
